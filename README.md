@@ -1,5 +1,10 @@
 # Sistema de Gestão de Estoque Inteligente
 
+![Java](https://img.shields.io/badge/Java-21-red)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.x-brightgreen)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
+![React](https://img.shields.io/badge/React-TypeScript-61DAFB)
+
 Plataforma de controle de estoque desenvolvida para portfólio, com backend em Spring Boot e interface web em React. O projeto demonstra organização em camadas, persistência em PostgreSQL, autenticação com JWT e uma visão operacional do estoque por meio de dashboard e relatórios.
 
 ## Visão Geral
@@ -90,6 +95,10 @@ Frontend:
 cd frontend
 npm run build
 ```
+
+## Capturas de Execução
+
+![Tela inicial do Sistema de Gestão de Estoque Inteligente](C:/Users/jv921/Documents/Codex/2026-06-21/que/outputs/projeto3-home.png)
 
 ## Decisões de Projeto
 
