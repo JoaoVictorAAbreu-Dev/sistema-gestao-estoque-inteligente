@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:${POSTGRES_PORT:5432}/${POSTGRES_DB:estoque_inteligente}
+    username: ${POSTGRES_USER:estoque}
+    password: ${POSTGRES_PASSWORD:estoque}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  flyway:
+    enabled: false
